@@ -3,16 +3,87 @@ PackratVersion: 0.4.0.4
 RVersion: 3.1.1
 Repos: CRAN=http://lib.stat.cmu.edu/R/CRAN/
 
+Package: bitops
+Source: CRAN
+Version: 1.0-6
+Hash: cb26464a8321628636b547518994c931
+
+Package: devtools
+Source: CRAN
+Version: 1.5
+Hash: d8c2ffc3d991d1b1a8625919b8be3f4c
+Requires: digest, evaluate, httr, memoise, RCurl, whisker
+
+Package: digest
+Source: CRAN
+Version: 0.6.4
+Hash: e4bf0e79b15a352510aff0de905d31e2
+
+Package: evaluate
+Source: CRAN
+Version: 0.5.5
+Hash: 20881970e590ee68de97a468694db7b0
+Requires: stringr
+
+Package: httr
+Source: CRAN
+Version: 0.3
+Hash: 7f02277955c17eccad6436240597d149
+Requires: digest, RCurl, stringr
+
+Package: memoise
+Source: CRAN
+Version: 0.2.1
+Hash: fc52fa39dfd216c44d64812ff31b1c67
+Requires: digest
+
 Package: packrat
 Source: github
 Version: 0.4.0.4
+Hash: ce9fb1de3ed490d3f85b0cae4534a3e998db659e
 GithubRepo: packrat
 GithubUsername: rstudio
 GithubRef: master
 GithubSha1: ce9fb1de3ed490d3f85b0cae4534a3e998db659e
-Hash: ce9fb1de3ed490d3f85b0cae4534a3e998db659e
+
+Package: pbapply
+Source: CRAN
+Version: 1.1-1
+Hash: b451b89e2ff36e40cf32af44931ca9a6
 
 Package: Rcpp
 Source: CRAN
 Version: 0.11.2
 Hash: ef2b1a5e45d1461bd720e4ebbe48e601
+
+Package: RcppArmadillo
+Source: CRAN
+Version: 0.4.320.0
+Hash: 864c201d0a000cad6a289f091a7c0231
+Requires: Rcpp
+
+Package: RCurl
+Source: CRAN
+Version: 1.95-4.3
+Hash: 158377109f939084a72f240125f821d3
+Requires: bitops
+
+Package: stringr
+Source: CRAN
+Version: 0.6.2
+Hash: cdde0cfa0f52cffeaca23a11a3899779
+
+Package: videoplayR
+Source: github
+Version: 0.1
+Hash: 3161f0dc048bb9033e7450298eaf728dd5900b8c
+Requires: Rcpp, RcppArmadillo
+GithubRepo: videoplayR
+GithubUsername: morpionZ
+GithubRef: master
+GithubSha1: 3161f0dc048bb9033e7450298eaf728dd5900b8c
+
+Package: whisker
+Source: CRAN
+Version: 0.3-2
+Hash: 186ab2937fec1694c8a63009a2389c4e
