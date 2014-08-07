@@ -1,0 +1,3 @@
+useDynLib(videotrackR)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
