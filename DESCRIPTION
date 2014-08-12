@@ -9,4 +9,4 @@ Description: This package contains functions to build a video tracking system wi
 License: GPL-3
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp
-Depends: videoplayR (>= 0.1), pbapply (>= 1.1-1)
+Depends: videoplayR (>= 0.1.1), pbapply (>= 1.1-1), pipeR (>= 0.3-2)
